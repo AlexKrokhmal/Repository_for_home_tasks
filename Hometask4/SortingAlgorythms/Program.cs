@@ -15,34 +15,53 @@ namespace SortingAlgorythms
 
             //Array for sorting
             //int[] arrayForSorting = new int[11] { 3, 2, 5, 6, 7, 1, 4, 0, 8, 1, 9 }; //{ 1, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1 } //{ 2, 3, 4, 5, 6, 1, 4, 3, 2, 1, 1 } // { 3, 2, 5, 6, 7, 1, 4, 0, 8, 1, 9 }
-            
-            int[] arrayForSorting = new int[10];
 
-            GenerateRandomIntArray(arrayForSorting);
+            MyQueueClass Class1 = new MyQueueClass();
+
+            //PrintArrayToConsole(Class1);
+
+
+            /*
+            string[] arrayForQueue = new string[6] { "a", "a", "0", "0", "0", "0"};
+
+            int head = 3;
+            int tail = 2;
+
+            EnqueueTheQueue(arrayForQueue, "b", head, tail, ref tail);
+
+            EnqueueTheQueue(arrayForQueue, "c", head, tail, ref tail);
+
+            EnqueueTheQueue(arrayForQueue, "d", head, tail, ref tail);
+
+            EnqueueTheQueue(arrayForQueue, "e", head, tail, ref tail);
+
+            EnqueueTheQueue(arrayForQueue, "f", head, tail, ref tail);
+            */
+
+            
+
+            int[] arrayForSorting = new int[10];
+            Random random = new Random();
+            for (int i = 0; i < arrayForSorting.Length; i++)
+            {
+                arrayForSorting[i] = random.Next(100);
+            }
+            
 
             //Run bubble sorting
-            BubbleArraySorting(arrayForSorting);
-
-            GenerateRandomIntArray(arrayForSorting);
+            //BubbleArraySorting(arrayForSorting);
 
             //Run insertion sorting
-            InsertionArraySorting(arrayForSorting);
+            //InsertionArraySorting(arrayForSorting);
                         
             Console.ReadKey();
         }
 
-
-
-        static void GenerateRandomIntArray(int[] emptyArrayForRandomValues)
-        {
-            Random random = new Random();
-            for (int i = 0; i < emptyArrayForRandomValues.Length; i++)
-            {
-                emptyArrayForRandomValues[i] = random.Next(100);
-            }
-        }
-
         
+
+
+
+
         /// <summary>
         /// Insertion sorting method for int arrays (finds correct place for each element and do swap(s))
         /// </summary>
@@ -165,6 +184,76 @@ namespace SortingAlgorythms
             }
             Console.WriteLine();
         }
+
+
+        
+
+    }
+
+    class MyQueueClass
+    {
+        string[] arrayForQueue = new string[6] { "a", "a", "0", "0", "0", "0" };
+
+        private int head = 3;
+        private int tail = 2;
+
+
+        //Enqueue
+        public string[] EnqueueTheQueue(string[] incomingArray, string valueToAdd, int queueHead, int queueTail, ref int updatedQueueTail)
+        {
+
+            Console.Write("In :");
+            PrintStringArrayToConsole(incomingArray);                       
+
+            if (queueTail == (incomingArray.Length - 1))
+            {
+                queueTail = 0;
+            }
+            else
+            {
+                queueTail++;
+            }
+
+            if (!CheckIfTheQueueISFull(incomingArray, queueHead, queueTail))
+            {
+                incomingArray[queueTail] = valueToAdd;
+
+                updatedQueueTail = queueTail;
+            }
+
+            Console.Write("Out:");
+            PrintStringArrayToConsole(incomingArray);
+            Console.WriteLine();
+
+            return incomingArray;
+        }
+
+        //Is full
+        public bool CheckIfTheQueueISFull(string[] incomingArray, int queueHead, int queueTail)
+        {
+            if (queueTail != queueHead)
+            {
+                //Console.WriteLine("The queue is not full yet");
+                return false;
+            }
+            else
+            {
+                Console.WriteLine("The queue is full");
+                return true;
+            }
+        }
+
+        //Method to print a string array
+        public void PrintStringArrayToConsole(string[] arrayForPrinting)
+        {
+            foreach (string arrayElement in arrayForPrinting)
+            {
+                Console.Write("{0} ", arrayElement);
+            }
+            Console.WriteLine();
+        }
+
+
 
     }
 }
