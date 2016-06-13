@@ -1,0 +1,6 @@
+D:\visual studio 2015\Projects\HomeTask1\HomeTask1\bin\Debug\HomeTask1.exe.config
+D:\visual studio 2015\Projects\HomeTask1\HomeTask1\bin\Debug\HomeTask1.exe
+D:\visual studio 2015\Projects\HomeTask1\HomeTask1\bin\Debug\HomeTask1.pdb
+D:\visual studio 2015\Projects\HomeTask1\HomeTask1\obj\Debug\HomeTask1.csprojResolveAssemblyReference.cache
+D:\visual studio 2015\Projects\HomeTask1\HomeTask1\obj\Debug\HomeTask1.exe
+D:\visual studio 2015\Projects\HomeTask1\HomeTask1\obj\Debug\HomeTask1.pdb
