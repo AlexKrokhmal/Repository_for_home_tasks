@@ -1,0 +1,6 @@
+D:\visual studio 2015\Projects\Hometask2-1\Hometask2-1\bin\Debug\Hometask2-1.exe.config
+D:\visual studio 2015\Projects\Hometask2-1\Hometask2-1\obj\Debug\Hometask2-1.csprojResolveAssemblyReference.cache
+D:\visual studio 2015\Projects\Hometask2-1\Hometask2-1\bin\Debug\Hometask2-1.exe
+D:\visual studio 2015\Projects\Hometask2-1\Hometask2-1\bin\Debug\Hometask2-1.pdb
+D:\visual studio 2015\Projects\Hometask2-1\Hometask2-1\obj\Debug\Hometask2-1.exe
+D:\visual studio 2015\Projects\Hometask2-1\Hometask2-1\obj\Debug\Hometask2-1.pdb
