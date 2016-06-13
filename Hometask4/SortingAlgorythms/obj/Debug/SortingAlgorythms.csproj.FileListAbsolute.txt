@@ -1,0 +1,12 @@
+c:\users\admin\documents\visual studio 2015\Projects\SortingAlgorythms\SortingAlgorythms\bin\Debug\SortingAlgorythms.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\SortingAlgorythms\SortingAlgorythms\obj\Debug\SortingAlgorythms.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\SortingAlgorythms\SortingAlgorythms\bin\Debug\SortingAlgorythms.exe
+c:\users\admin\documents\visual studio 2015\Projects\SortingAlgorythms\SortingAlgorythms\bin\Debug\SortingAlgorythms.pdb
+c:\users\admin\documents\visual studio 2015\Projects\SortingAlgorythms\SortingAlgorythms\obj\Debug\SortingAlgorythms.exe
+c:\users\admin\documents\visual studio 2015\Projects\SortingAlgorythms\SortingAlgorythms\obj\Debug\SortingAlgorythms.pdb
+E:\Programming\Git\Hometask4\SortingAlgorythms\bin\Debug\SortingAlgorythms.exe.config
+E:\Programming\Git\Hometask4\SortingAlgorythms\obj\Debug\SortingAlgorythms.exe
+E:\Programming\Git\Hometask4\SortingAlgorythms\obj\Debug\SortingAlgorythms.pdb
+E:\Programming\Git\Hometask4\SortingAlgorythms\bin\Debug\SortingAlgorythms.exe
+E:\Programming\Git\Hometask4\SortingAlgorythms\bin\Debug\SortingAlgorythms.pdb
+E:\Programming\Git\Hometask4\SortingAlgorythms\obj\Debug\SortingAlgorythms.csprojResolveAssemblyReference.cache
