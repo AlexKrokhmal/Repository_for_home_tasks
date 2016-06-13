@@ -17,19 +17,29 @@ namespace SortingAlgorythms
             //int[] arrayForSorting = new int[11] { 3, 2, 5, 6, 7, 1, 4, 0, 8, 1, 9 }; //{ 1, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1 } //{ 2, 3, 4, 5, 6, 1, 4, 3, 2, 1, 1 } // { 3, 2, 5, 6, 7, 1, 4, 0, 8, 1, 9 }
             
             int[] arrayForSorting = new int[10];
-            Random random = new Random();
-            for (int i = 0; i < arrayForSorting.Length; i++)
-            {
-                arrayForSorting[i] = random.Next(100);
-            }            
+
+            GenerateRandomIntArray(arrayForSorting);
 
             //Run bubble sorting
             BubbleArraySorting(arrayForSorting);
+
+            GenerateRandomIntArray(arrayForSorting);
 
             //Run insertion sorting
             InsertionArraySorting(arrayForSorting);
                         
             Console.ReadKey();
+        }
+
+
+
+        static void GenerateRandomIntArray(int[] emptyArrayForRandomValues)
+        {
+            Random random = new Random();
+            for (int i = 0; i < emptyArrayForRandomValues.Length; i++)
+            {
+                emptyArrayForRandomValues[i] = random.Next(100);
+            }
         }
 
         
